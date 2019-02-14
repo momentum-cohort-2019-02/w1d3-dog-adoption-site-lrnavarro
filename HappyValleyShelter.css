@@ -1,3 +1,8 @@
+body {
+    margin: 0 auto;
+    padding: 5%;
+    font-family: sans serif;
+    }
 h1 {
     color: #ffffff;
     background-color: #183E73;
@@ -5,14 +10,35 @@ h1 {
     border-bottom: #D9F0F8 5px solid;
     }
 h2 {
-    padding: 20px
+    padding: 20px;
     }
 
 .dogType {
-background-color: #EFEDEE; 
-font-weight: bold;
-padding: 20px;
+    background-color: #EFEDEE; 
+    font-weight: bold;
+    padding: 20px;
         }
-.gender {
-display: flex-wrap    
+.selections {
+    margin-right: 10rem
 }
+
+.filters {
+    display: flex;
+}
+
+.gender {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+        }       
+.age {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.size {
+    flex-direction: column wrap;
+    }
+.traits {
+    flex-direction: column wrap;
+    }
