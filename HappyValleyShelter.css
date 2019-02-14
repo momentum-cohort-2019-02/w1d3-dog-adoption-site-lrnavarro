@@ -1,0 +1,18 @@
+h1 {
+    color: #ffffff;
+    background-color: #183E73;
+    padding: 20px;
+    border-bottom: #D9F0F8 5px solid;
+    }
+h2 {
+    padding: 20px
+    }
+
+.dogType {
+background-color: #EFEDEE; 
+font-weight: bold;
+padding: 20px;
+        }
+.gender {
+display: flex-wrap    
+}
