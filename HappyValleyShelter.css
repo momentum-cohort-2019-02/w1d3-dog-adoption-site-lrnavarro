@@ -28,26 +28,42 @@ h2 {
 
 .dogs {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 100%;
+    margin-top: 5rem
 }
 .dogImgs {
-    flex: 1;
-    max-width: 30%;
-    margin: 10px;
-    border: solid black
-    
+    flex-grow: 1;
+    max-width: 33.3%;
+    margin: 0 auto;
+    /* border: solid black; */
+    /* padding: 20px     */
 }
 
 img {
     width: 100%;
 }
-ul {
-    list-style-type: none;
-    
-}
 
 li {
-    background-color: aqua;
     display: inline;
+    background-color: #ADDBED;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin-top: 5rem
+}
+.footImgs {
+    /* flex-grow: 1; */
+    max-width: 33.3%;
+    margin: 0 auto;
+    background:  rgba(8A, 85, E4, 0.2);
+
+}
+.donate {
+    
 }
