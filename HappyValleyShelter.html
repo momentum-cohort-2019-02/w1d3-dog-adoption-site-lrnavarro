@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="initial-scale=1.0,width=device-width" />
         <title>HappyValleyShelter</title>
         <link rel="stylesheet" href="HappyValleyShelter.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
@@ -16,46 +17,82 @@
         <div class= "dogType">
             <h3>Show me dogs that are</h3>
             <section class="filters">
-                    <div class=selections>
+                <div class=selections>
                         <strong>Gender</strong><br>
                         <input type="radio">Male<br>
                         <input type="radio">Female<br>
                         <input type="radio">All<br>
-                    </div>
-                   <div class="selections">    
+                </div>
+                <div class="selections">    
                         <strong>Age</strong> <br>
                         <input type="radio">Puppy<br>
                         <input type="radio">Young<br>
                         <input type="radio">Adult<br>
                         <input type="radio">Senior<br>
                         <input type="radio">All<br>             
-                    </div>
-                    <div class=selections>
-                        <strong>Size</strong><br>
-                        <input type="checkbox">Tiny<br>
-                        <input type="checkbox">Small<br>
-                        <input type="checkbox">Medium<br>
-                        <input type="checkbox">Large<br>
-                    </div>
-                    <div class=selections>
-                        <strong>Personality Traits</strong><br>
-                        <input type="checkbox">Easygoing<br>
-                        <input type="checkbox">Energetic<br>
-                        <input type="checkbox">Good with kids<br>
-                        <input type="checkbox">Good with other dogs<br>
-                        <input type="checkbox">Good with cats<br>
-                    </div>
-                </section>
+                </div>
+                <div class=selections>
+                    <strong>Size</strong><br>
+                    <input type="checkbox">Tiny<br>
+                    <input type="checkbox">Small<br>
+                    <input type="checkbox">Medium<br>
+                    <input type="checkbox">Large<br>
+                </div>
+                <div class=selections>
+                    <strong>Personality Traits</strong><br>
+                    <input type="checkbox">Easygoing<br>
+                    <input type="checkbox">Energetic<br>
+                    <input type="checkbox">Good with kids<br>
+                    <input type="checkbox">Good with other dogs<br>
+                    <input type="checkbox">Good with cats<br>
+                </div>
+            </section>
         </div>
-        <div class= "dogImgs"></div>
+<div class="dogs">
+    <div class= "dogImgs">
+        <!-- <div class="dogPic">  -->
             <img src="starter_files/images/beans.jpg">
-        <h2>Beans</h2>
-            Adult
-            Male
-            Medium
-            Easygoing
-            Good with cats
-        </p>
-
-
+        <!-- </div>  -->
+            <strong>Beans</strong><br>
+            <div class="dogDescrip">
+                Adult
+                Male
+                Medium
+                Easygoing
+                Good with cats
+            </div>  
+    </div>
+    <div class= "dogImgs">
+        <!-- <div class="dogPic">  -->
+            <img src="starter_files/images/boston-terrier.jpg">
+        <!-- </div> -->
+            <strong>Zelda</strong><br>
+            <div class="dogDescrip">
+                <ul>
+                    <li>Senior</li>
+                    <li>Female</li>
+                    <li>Small</li>
+                    <li>Easygoing</li>
+                    <li>Good with kids</li>
+                    <li>Good with other dogs</li>
+                </ul>
+            </div>
+        
+    </div>
+     <div class= "dogImgs">
+        <!-- <div class="dogPic">     -->
+            <img src="starter_files/images/boxer.jpg">
+        <!-- </div>    -->
+            <strong>Baby</strong><br>
+                <div class="dogDescrip">
+                    Senior
+                    Female
+                    Small
+                    Easygoing
+                    Good with kids
+                    Good with other dogs
+                </div>
+       
+    </div>     
+</div>
     </body>
