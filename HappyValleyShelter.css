@@ -29,16 +29,17 @@ h2 {
 .dogs {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     max-width: 100%;
-    margin-top: 5rem
+    /* margin-top: 5rem;
+    padding: 5rem; */
 }
 .dogImgs {
     flex-grow: 1;
     max-width: 33.3%;
-    margin: 0 auto;
+    /* margin: 5px; */
     /* border: solid black; */
-    /* padding: 20px     */
+    /* padding: 5px;    */
 }
 
 img {
